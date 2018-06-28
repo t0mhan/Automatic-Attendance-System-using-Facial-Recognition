@@ -1,0 +1,42 @@
+﻿<Window x:Class="AttendanceSystem.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AttendanceSystem"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="365" Width="650" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <GridSplitter x:Name="Splitter" HorizontalAlignment="Left" Height="153" Margin="339,125,0,0" VerticalAlignment="Top" Width="5" Foreground="#FF4100FF"/>
+        <RichTextBox x:Name="Intro" HorizontalAlignment="Left" Height="215" Margin="30,83,0,0" VerticalAlignment="Top" Width="282" IsReadOnly="True" ToolTip="Short description of Application" >
+            <FlowDocument>
+                <Paragraph TextAlignment="Center">
+                    <Run FontWeight="Bold" Text="Attendance " TextDecorations="Underline"/>
+                    <Run FontWeight="Bold" FontStyle="Italic" Text="System Using Facial Recognition" TextDecorations="Underline"/>
+                </Paragraph>
+                <Paragraph TextAlignment="Justify" TextIndent="1">
+                    <Run Text="Is an integrated solution that allows you to have thorough attendance review and eliminate duplicate data entry and errors in time and attendance entries. It eliminates duplicate data entry and errors in time and attendance entries. "/>
+                </Paragraph>
+                <Paragraph TextAlignment="Justify" TextIndent="1">
+                    <Run Text="This is a user-friendly and flexible application which helps you to track attendance of the students effectively."/>
+                </Paragraph>
+                <Paragraph TextAlignment="Center" TextIndent="13">
+                    <Run/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+        <Button x:Name="BtnLogin" Content="Login" HorizontalAlignment="Left" Margin="536,280,0,0" VerticalAlignment="Top" Width="75" Click="BtnLogin_Click" ToolTip="Login for next step"/>
+        <TextBox x:Name="TBx_User" HorizontalAlignment="Left" Height="23" Margin="447,175,0,0" TextWrapping="Wrap"
+                 MaxLength="8" VerticalAlignment="Top" Width="165" ToolTip="Please enter your 8 digit unique number"/>
+        <PasswordBox x:Name="PBx_Password" HorizontalAlignment="Left" Margin="447,218,0,0" Width="165"  Height="23" VerticalAlignment="Top" ToolTip="Please enter your password"/>
+        <TextBlock HorizontalAlignment="Left" Margin="369,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="61" Height="23" ToolTip="Please enter your 8 digit unique number"><Run FontWeight="Bold" Text="Login Id "/><Run Text=" "/><Run FontWeight="Bold" Text=" "/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="369,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="61" Height="23"><Run FontWeight="Bold" Text="Password"/></TextBlock>
+
+        <TextBlock Text="Welcome! Please login to access Application" HorizontalAlignment="Left" Margin="366,135,0,0" VerticalAlignment="Top" Width="246" Height="25" TextWrapping="Wrap" />
+        <TextBlock HorizontalAlignment="Left" Margin="71,18,0,0" TextWrapping="Wrap" Text="Attendance System Using Facial Recognition" VerticalAlignment="Top" FontSize="20" FontStyle="Italic" FontWeight="Bold" Width="507" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="369,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="61" Height="32" ToolTip="Please enter your unique number" FontSize="20" FontWeight="Bold"><Run Text="Login Id "/><Run Text=" "/><Run Text=" "/></TextBlock>
+        <Label x:Name="LBl_Login_Message" Content="" HorizontalAlignment="Left" Margin="365,246,0,0" VerticalAlignment="Top" Width="245" Foreground="#FF0000" Height="35"/>
+
+    </Grid>
+</Window>
