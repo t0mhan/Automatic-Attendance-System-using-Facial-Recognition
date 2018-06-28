@@ -28,7 +28,7 @@ Is an Integrated Solution that allows you to have thorough attendance review and
 ## How OpenCV Works
 - Some facial recognition algorithms identify faces by extracting landmarks, or features, from an image of the subject's face. For example, an algorithm may analyze the relative position, size, and/or shape of the eyes, nose, cheekbones, and jaw. These features are then used to search for other images with matching features. Other algorithms normalize a gallery of face images and then compress the face data, only saving the data in the image that is useful for face detection. A probe image is then compared with the face data. One of the earliest successful systems is based on template matching techniques applied to a set of salient facial features, providing a sort of compressed face representation. Recognition algorithms can be divided into two main approaches, geometric, which looks at distinguishing features, or photometric, which is a statistical approach that distill an image into values and comparing the values with templates to eliminate variances. Popular recognition algorithms include Principal Component Analysis with eigenface, Linear Discriminate Analysis, Elastic Bunch Graph Matching fisherface, the Hidden Markov model, and the neuronal motivated dynamic link matching.
 
-## User Interfaces
+## Login Credentials
 - Login id : **12345678**
 - Password : **admin(all small)**
 
@@ -45,3 +45,4 @@ As with any c# library there are some essential DLL’s that need referencing wi
 Emgu.CV.dll
 Emgu.CV.UI.dll 
 Emgu.Util.dll  
+
