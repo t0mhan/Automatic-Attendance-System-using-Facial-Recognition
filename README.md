@@ -1,6 +1,6 @@
 # Automatic-Attendance-System-using-Facial-Recognition
 
-Is an Integrated Solution that allows you to have thorough attendance review and eliminate duplicate data entry and errors in time and attendance entries. This application is user-friendly and flexible which helps you to track attendance of the students effectively.
+It is an Integrated Solution that allows you to have thorough attendance review and eliminate duplicate data entry and errors in time and attendance entries. This application is user-friendly and flexible which helps you to track attendance of the students effectively.
 
 ## KEY FEATURES
 - Auto Attendance system Using Real Time Face Recognition
